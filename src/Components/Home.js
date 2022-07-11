@@ -329,7 +329,7 @@ function Buy(){
 
 
 const BotaoConfirmar = styled.button`
-width: 60vw;
+width: 200px;
 height: 100px;
 background-color: red;
 
@@ -364,15 +364,15 @@ background-color: rgba(0, 0, 0, 0.7);
 `
 
 const Modal = styled.div`
-width: 80vw;
-height: 80vw;
+width: 300px;
+height: 300px;
 background-color: white;
 
 border-radius: 5px;
 
-position: absolute;
-left: 10vw;
-bottom: 50vw;
+position: fixed;
+left: 10%;
+top: 30%;
 
 display: flex;
 align-items: center;
