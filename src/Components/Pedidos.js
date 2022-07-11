@@ -15,7 +15,7 @@ export default function Pedidos() {
                 Authorization: `Bearer ${token}`
             }
         }
-        const promise = axios.get("http://localhost:5000/pedidos", config);
+        const promise = axios.get("https://ifeiraapp.herokuapp.com/pedidos", config);
 
         promise.then((res) => setPedidos(res.data));
         promise.catch(() => alert("Ocorreu um erro! Atualize a página!"))

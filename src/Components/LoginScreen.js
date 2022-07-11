@@ -19,7 +19,7 @@ export default function LoginScreen(){
         console.log(body)
 
      //   const promise= axios.post('https://ifeiraapp.herokuapp.com/sign-in' , body)
-        const promise= axios.post('http://localhost:5000/sign-in' , body)
+        const promise= axios.post('https://ifeiraapp.herokuapp.com/sign-in' , body)
 
     
         promise
